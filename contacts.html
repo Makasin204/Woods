@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/contacts.css">
+</head>
+
+<body>
+    <header>
+        <div class="header__logo d-flex"></div>
+        <div id="mobile-nav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html">Головна</a>
+                <a href="works.html">Наші роботи</a>
+                <a href="#" class="active-menu">Контакти</a>
+            </div>
+        </div>
+        <span id="open-nav" onclick="openNav()">
+            <img src="img/bars.svg" alt="menu" class="nav-img">
+        </span>
+        <nav id="pc-nav" class="d-flex">
+            <ul class="d-flex">
+                <a href="index.html">
+                    <li>Головна</li>
+                </a>
+                <a href="works.html">
+                    <li>Наші роботи</li>
+                </a>
+                <a href="#">
+                    <li class="active-menu">Контакти</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main__contact d-flex">
+            <div class="main__contact__icon icon-phone"></div>
+            <p class="main__contact__text">Телефон: 098-960-9685</p>
+        </div>
+        <div class="main__contact d-flex">
+            <div class="main__contact__icon icon-email"></div>
+            <p class="main__contact__text">E-mail : lvivderevprom@ukr.net</p>
+        </div>
+    </main>
+    <footer>
+        <div class="footer__logo"></div>
+    </footer>
+    <script src="script/menu.js"></script>
+</body>
+
+</html>

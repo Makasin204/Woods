@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+
+<body>
+    <header>
+        <div class="header__logo d-flex"></div>
+        <div id="mobile-nav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#" class="active-menu">Головна</a>
+                <a href="works.html">Наші роботи</a>
+                <a href="contacts.html">Контакти</a>
+            </div>
+        </div>
+        <span id="open-nav" onclick="openNav()">
+            <img src="img/bars.svg" alt="menu" class="nav-img">
+        </span>
+        <nav id="pc-nav" class="d-flex">
+            <ul class="d-flex">
+                <a href="#">
+                    <li class="active-menu">Головна</li>
+                </a>
+                <a href="works.html">
+                    <li>Наші роботи</li>
+                </a>
+                <a href="contacts.html">
+                    <li>Контакти</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main__hero">
+            <div class="main__hero d-flex">
+                <div class="main__hero__text">
+                    <p class="main__hero__text__caption">Wood Detailing</p>
+                    <p class="main__hero__text__description">Гарантійне та післягарантійне обслуговування
+                        Регламентні роботи.
+                        Шліфування та герметизація будинків з дерева.
+                        Працюємо тільки з якісними, екологічно чистими, перевіреними часом матеріалами.
+                        Remmers, Adler, Pinotex.
+                        Окосячка та обробка торців.
+                    </p>
+                    <a href="works.html">
+                        <button type="button" class="main__hero__text__button">Наші роботи</button>
+                    </a>
+                    </div>
+                    <!-- <div class="main__hero__text">
+                        <p class="main__hero__text__caption">Про нас</p>
+                        <p class="main__hero__text__description">Ми займаємось усуненням почорнінь та поверненням дереву
+                            його натурального вингяду. Прибираємо сколи, тріщини та інші дефекти поверхні. Також захищаємо
+                            вашу
+                            деревину від плісняви, грибку, УФ випромінювання, опадів, усіляких мікроорганізмів та комах.</p>
+                        <a href="works.html">
+                            <button type="button" class="main__hero__text__button">Наші роботи</button>
+                        </a>
+                        </div> -->
+            </div>
+        </div>
+        <div class="main__about-us d-flex">
+            <div class="main__about-us__text">
+                <p class="main__about-us__text__caption">Освіжіть ваш будиночок</p>
+                <p class="main__about-us__text__description">
+                    Догляд за вашою будівлею з дерева - невід'ємна частина
+                    довговічності та краси вашого будинку. Для того щоб ваш будиночок міг й далі радувати ваше око
+                    неперевершиним виглядом - йому потрібен комплекс процедур, спрямованих на очищення, придання
+                    вигляду та захисту від подальшого впливу різних факторів.<br>
+                </p>
+                <p class="main__about-us__text__caption" id="second_caption">Що ви отримаєте замовивши послугу шліфування та герметизації у нас?</p>
+            </div>
+            <div class="main__about-us__info">
+                <div class="main__about-us__info__benefit">
+                    <div class="main__about-us__info__benefit__caption">15+</div>
+                    <div class="main__about-us__info__benefit__text">Років досвіду</div>
+                </div>
+                <div class="main__about-us__info__benefit">
+                    <div class="main__about-us__info__benefit__icon icon-1"></div>
+                    <div class="main__about-us__info__benefit__text">Гарантійне та післягарантійне обслуговування</div>
+                </div>
+                <div class="main__about-us__info__benefit">
+                    <div class="main__about-us__info__benefit__icon icon-2"></div>
+                    <div class="main__about-us__info__benefit__text">Регламентні роботи</div>
+                </div>
+                <div class="main__about-us__info__benefit">
+                    <div class="main__about-us__info__benefit__icon icon-3"></div>
+                    <div class="main__about-us__info__benefit__text">Якісні та екологічно чисті матеріали</div>
+                </div>
+            </div>
+        </div>
+        <div class="main__info-block d-flex">
+            <div class="main__info-block__benefit">
+                <div class="main__info-block__benefit__icon icon-4"></div>
+                <div class="main__info-block__benefit__caption">Реконструкція<br>та обслуговування</div>
+                <!-- <div class="main__info-block__benefit__description">Реконструкція та обслуговування.</div> -->
+            </div>
+            <div class="main__info-block__benefit">
+                <div class="main__info-block__benefit__icon icon-5"></div>
+                <div class="main__info-block__benefit__caption">Окосячка</div>
+                <!-- <div class="main__info-block__benefit__description">Окосячка.</div> -->
+            </div>
+            <div class="main__info-block__benefit">
+                <div class="main__info-block__benefit__icon icon-6"></div>
+                <div class="main__info-block__benefit__caption">Обробка торців</div>
+                <!-- <div class="main__info-block__benefit__description">Обробка торців.</div> -->
+            </div>
+        </div>
+        <div class="main__services">
+            <div class="main__services__picture"></div>
+            <div class="main__services__text-block">
+                <div class="main__services__text-block__captrion">Наші послуги</div>
+                <!-- <div class="main__services__text-block__description">Виконання робіт відбувається на найвищому рівні та
+                    лише з найкращими матеріалами. Це забезпечує довговічність та якість пророблених робіт.</div> -->
+                <div class="main__services__text-block__services d-flex">
+                    <div class="wrapper d-flex">
+                        <div class="main__services__text-block__services__option option-1">
+                            <div class="main__services__text-block__services__option__number">01</div>
+                            <div class="main__services__text-block__services__option__caption">Усунення дефектів</div>
+                            <div class="main__services__text-block__services__option__description">Усунення сколів,
+                                тріщин, та інших дефектів поверхні. Повне відновлення міцності вашої конструкції</div>
+                        </div>
+                        <div class="main__services__text-block__services__option option-2">
+                            <div class="main__services__text-block__services__option__number">02</div>
+                            <div class="main__services__text-block__services__option__caption">Усунення почорнінь</div>
+                            <div class="main__services__text-block__services__option__description">Важливо повернути
+                                дереву його натуральний вигляд та хороший стан. Так воно зможе прослужити вам ще багато
+                                років.</div>
+                        </div>
+                    </div>
+                    <div class="wrapper d-flex">
+                        <div class="main__services__text-block__services__option option-3">
+                            <div class="main__services__text-block__services__option__number">03</div>
+                            <div class="main__services__text-block__services__option__caption">Герметизація</div>
+                            <div class="main__services__text-block__services__option__description">Герметизація швів
+                                акриловим герметиком різних кольорів на ваш вибір. Герметизація захистить ваш будинок на
+                                роки.</div>
+                        </div>
+                        <div class="main__services__text-block__services__option option-4">
+                            <div class="main__services__text-block__services__option__number">04</div>
+                            <div class="main__services__text-block__services__option__caption">Повний захист</div>
+                            <div class="main__services__text-block__services__option__description">Захист від плісняви,
+                                грибка, УФ випромінювання, опадів, мікроорганізмів та комах.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrap d-flex">
+            <div class="main__works">
+                <div class="main__works__caption">Наші роботи</div>
+                <div class="wrapper-works">
+                    <div class="main__works__house">
+                        <div class="main__works__house__picture house-1">
+                            <div class="main__works__house__description">До</div>
+                        </div>
+                    </div>
+                    <div class="main__works__house">
+                        <div class="main__works__house__picture house-2">
+                            <div class="main__works__house__description">Після</div>
+                        </div>
+                    </div>
+                    <div class="main__works__house">
+                        <div class="main__works__house__picture house-3">
+                            <div class="main__works__house__description">До</div>
+                        </div>
+                    </div>
+                    <div class="main__works__house">
+                        <div class="main__works__house__picture house-4">
+                            <div class="main__works__house__description">Після</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main__price"><b>Вартість робіт</b><br>
+                <p>Шліфування + фарбування в комплексі від 350 грн /м2</p>
+                <p>Герметизація швів в комплексі від 40 грн/ м.п</p>
+                <p>Ціна визначається індивідуально. Можливий виїзд консультанта на об’єкт.</p>
+            </div>
+        </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="footer__logo"></div>
+
+        <nav id="pc-nav">
+            <ul id="footer__nav">
+                <a href="#">
+                    <li class="active-menu" id="footer-nav-text">Головна</li>
+                </a>
+                <a href="works.html">
+                    <li id="footer-nav-text">Наші роботи</li>
+                </a>
+                <a href="contacts.html">
+                    <li id="footer-nav-text">Контакти</li>
+                </a>
+            </ul>
+        </nav>
+    </footer>
+    <script src="script/menu.js"></script>
+</body>
+
+</html>

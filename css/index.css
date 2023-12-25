@@ -1,0 +1,620 @@
+.main__hero{
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    margin-bottom: 100px;
+}
+.main__hero__text{
+    width: 600px;
+    height: 375px;
+    background-color: white;
+    opacity: 0.75;
+    border: 1px solid silver;
+    padding: 40px 50px;
+}
+.main__hero__text__caption{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.main__hero__text__description{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.main__hero__text__button{
+    width: 200px;
+    height: 60px;
+    position: relative;
+    z-index: 1;
+    font-size: 22px;
+    color: white;
+    background-color: #254d4d;
+    border: 3px solid #254d4d;
+    border-radius: 50px;
+    margin-left: 150px;
+    transition-duration: 0.3s;
+    transition-property: background-color, color;
+}
+.main__hero__text__button:hover{
+    color: #254d4d;
+    background-color: white;
+    cursor: pointer;
+}
+.main__about-us{
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.main__about-us__text{
+    width: 500px;
+    height: fit-content;
+    font-size: 22px;
+}
+.main__about-us__text__caption{
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#second_caption{
+    font-size: 52px;
+    width: 600px;
+    margin-top: 20px;
+}
+.main__about-us__text__description{
+    width: 550px;
+}
+.main__about-us__info__benefit__icon{
+    width: 75px;
+    height: 65px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.main__about-us__info{
+    width: 400px;
+    height: fit-content;
+    /* margin-left: 50px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-self: center;
+}
+.main__about-us__info__benefit{
+    width: 100px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin: 25px 50px;
+    margin-bottom: 25px;
+}
+.main__about-us__info__benefit__caption{
+    font-size: 52px;
+    font-weight: 700;
+    width: 85px;
+    height: 65px;
+    margin-bottom: 10px;
+}
+.bold{
+    font-weight: 600;
+}
+.main__info-block{
+    width: 80%;
+    height: fit-content;
+    background-color: #f5f6f5;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.main__about-us__info__benefit__text{
+    text-align: center;
+    font-size: 18px;
+}
+.main__info-block{
+    padding: 50px 50px;
+    justify-content: space-around;
+}
+.main__info-block__benefit{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+.main__info-block__benefit__icon{
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+.main__info-block__benefit__caption{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.main__info-block__benefit__description{
+    width: 250px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.main__services{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.main__services__picture{
+    width: 750px;
+    height: 850px;
+    background-image: url(../img/services.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 50px;
+}
+.main__services__text-block{
+    width: 700px;
+    margin-left: 50px;
+}
+.main__services__text-block__captrion{
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.main__services__text-block__description{
+    width: 500px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.main__services__text-block__services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main__services__text-block__services__option{
+    width: 370px;
+    height: 275px;
+    padding: 25px;
+}
+.option-1{
+    border-right: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+.option-2{
+    border-left: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+.option-3{
+    border-right: 1px solid silver;
+    border-top: 1px solid silver;
+}
+.option-4{
+    border-left: 1px solid silver;
+    border-top: 1px solid silver;
+}
+.main__services__text-block__services__option__number{
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.main__services__text-block__services__option__caption{
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.main__services__text-block__services__option__description{
+    font-size: 18px;
+}
+.main__works{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f6f5;
+    margin-bottom: 100px;
+    padding-top: 50px;
+
+}
+.wrap{
+    width: 100%;
+    flex-direction: column;
+}
+.main__price{
+    width: 80%;
+    height: fit-content;
+    background-color: #f5f6f5;
+    font-size: 22px;
+    flex-direction: column;
+    margin-bottom: 100px;
+    padding: 35px;
+    text-align: center;
+}
+.main__price > p{
+    margin-top: 20px;
+}
+b{
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+}
+.main__works__caption{
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.main__works__house{
+    margin: 50px;
+}
+.main__works__house__picture{
+    width: 500px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.main__works__house__description{
+    width: 125px;
+    height: 125px;
+    background-color: #254d4d;
+    border-top-left-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+}
+.wrapper-works{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+@media screen and (max-width: 1650px) {
+    .main__services__picture{
+        width: 550px;
+        height: 650px;
+    }
+    .main__services__text-block{
+        width: 500px;
+        margin-left: 50px;
+    }
+    .main__services__text-block__captrion{
+        font-size: 46px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .main__services__text-block__description{
+        width: 500px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .main__services__text-block__services{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .main__services__text-block__services__option{
+        width: 270px;
+        height: 275px;
+        padding: 25px;
+    }
+    .main__services__text-block__services__option__number{
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .main__services__text-block__services__option__caption{
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    .main__services__text-block__services__option__description{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .main__info-block__benefit__caption{
+        text-align: center;
+    }
+    .main__about-us{
+        flex-direction: column;
+    }
+    .main__about-us__text{
+        width: 80%;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .main__about-us__info{
+        margin: 0px;
+
+    }
+    .main__about-us__text__description{
+        width: 700px;
+    }
+    .main__info-block{
+        width: fit-content;
+        flex-direction: column;
+    }
+    .main__info-block__benefit{
+        justify-content: center;
+        align-items: center;
+    }
+    .main__info-block__benefit__description{
+        width: 500px;
+        text-align: center;
+    }
+    .main__services{
+        flex-direction: column;
+    }
+    .main__services__picture {
+        width: 900px;
+        height: 750px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .main__services__text-block {
+        width: 900px;
+        margin-left: 0px;
+    }
+    .main__services__text-block__services__option {
+        width: 450px;
+        height: 220.5px;
+        padding: 25px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .main__hero__text {
+        width: 400px;
+        height: 300px;
+        padding: 20px 25px;
+    }
+    .main__hero__text__caption {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+    .main__hero__text__description {
+        font-size: 16px;
+        margin-bottom: 28px;
+    }
+    .main__hero__text__button {
+        width: 150px;
+        height: 60px;
+        font-size: 20px;
+        margin-left: 100px;
+    }
+    .main__about-us__text__caption{
+        font-size: 56px;
+    }
+    #second_caption{
+        font-size: 44px;
+        width: 500px;
+    }
+    .main__about-us__text__description {
+        width: 500px;
+        font-size: 18px;
+    }
+    .main__info-block{
+        padding: 25px 25px;
+    }
+    .main__info-block__benefit__description {
+        width: 350px;
+    }
+    .main__services__picture {
+        width: 500px;
+        height: 417px;
+    }
+    .main__services__text-block {
+        width: 500px;
+    }
+    .main__services__text-block__services__option {
+        width: 200px;
+        height: 295px;
+    }
+    .main__works {
+        padding-top: 25px;
+    }
+    .main__works__house{
+        margin: 25px;
+    }
+    .main__works__house__picture {
+        width: 300px;
+        height: 300px;
+    }
+    .main__works__caption {
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+    .main__price{
+        font-size: 16px;
+    }
+    b{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .main__hero {
+        height: 500px;
+    }
+    .main__hero__text{
+        width: 280px;
+        height: 280px;
+    }
+    .main__hero__text__caption {
+        font-size: 30px;
+    }
+    .main__hero__text__description {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    .main__hero__text__button {
+        width: 140px;
+        height: 50px;
+        font-size: 16px;
+        margin-left: 50px;
+    }
+    .main__about-us__text__caption {
+        font-size: 46px;
+    }
+    #second_caption{
+        font-size: 30px;
+        width: 300px;
+    }
+    .main__about-us__text__description {
+        width: 300px;
+        font-size: 12px;
+    }
+    .main__info-block {
+        padding: 10px 10px;
+    }
+    .main__info-block__benefit__caption {
+        font-size: 20px;
+    }
+    .main__about-us__info__benefit__caption {
+        font-size: 35px;
+        text-align: center;
+    }
+    .main__about-us__info__benefit{
+        margin: 15px 20px;
+    }
+    .main__about-us__info__benefit__icon {
+        width: 55px;
+        height: 45px;
+    }
+    .main__about-us__info__benefit__text {
+        font-size: 12px;
+    }
+    .main__info-block__benefit__description {
+        width: 250px;
+        font-size: 16px;
+    }
+    .main__services__picture {
+        width: 300px;
+        height: 250px;
+    }
+    .main__services__text-block__captrion {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .main__services__text-block {
+        width: 280px;
+    }
+    .main__services__text-block__description {
+        width: 280px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .main__services__text-block__services__option {
+        width: 160px;
+        height: 250px;
+    }
+    .main__services__text-block__services__option__caption {
+        font-size: 16px;
+    }
+    .main__services__text-block__services__option__description {
+        font-size: 12px;
+    }
+    .main__works__house {
+        margin: 10px;
+    }
+    .main__works__house__picture {
+        width: 200px;
+        height: 200px;
+    }
+    .main__works__caption {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .main__about-us__info {
+        width: 300px;
+    }
+    .nav-img {
+        width: 25px;
+        height: 25px;
+    }
+    .main__works__house__description{
+        width: 75px;
+        height: 75px;
+        border-top-left-radius: 50px;
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.house-1{
+    background-image: url(../img/before-1.JPG);
+}
+.house-2{
+    background-image: url(../img/after-1.JPG);
+}
+.house-3{
+    background-image: url(../img/before-2.JPG);
+}
+.house-4{
+    background-image: url(../img/after-2.JPG);
+}
+
+
+
+
+
+
+.icon-1{
+    background-image: url(../img/shield.svg);
+}
+.icon-2{
+    background-image: url(../img/clipboard-notes.svg);
+}
+.icon-3{
+    background-image: url(../img/trees.svg);
+}
+.icon-4{
+    background-image: url(../img/angle-double-up.svg);
+}
+.icon-5{
+    background-image: url(../img/window-maximize.svg);
+}
+.icon-6{
+    background-image: url(../img/process.svg);
+}
+

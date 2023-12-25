@@ -1,0 +1,169 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main__caption{
+    font-size: 64px;
+    font-weight: 700;
+}
+.main__showcase{
+    width: 90%;
+    height: 4070px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.main__showcase__picture{
+    width: 400px;
+    height: 300px;
+    margin: 35px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.work-1{
+    background-image: url(../img/work-1_comp.png);
+}
+.work-2{
+    background-image: url(../img/work-2_comp.png);
+}
+.work-3{
+    background-image: url(../img/work-3_comp.png);
+}
+.work-4{
+    background-image: url(../img/work-4_comp.png);
+}
+.work-5{
+    background-image: url(../img/work-5_comp.png);
+}
+.work-6{
+    background-image: url(../img/work-6_comp.png);
+}
+.work-7{
+    background-image: url(../img/work-7_comp.png);
+}
+.work-8{
+    background-image: url(../img/work-8_comp.png);
+}
+.work-9{
+    background-image: url(../img/work-9_comp.png);
+}
+.work-10{
+    background-image: url(../img/work-10_comp.png);
+}
+.work-11{
+    background-image: url(../img/work-11_comp.png);
+}
+.work-12{
+    background-image: url(../img/work-12_comp.png);
+}
+.work-13{
+    background-image: url(../img/work-13_comp.png);
+}
+.work-14{
+    background-image: url(../img/work-14_comp.png);
+}
+.work-15{
+    background-image: url(../img/work-15_comp.png);
+}
+.work-16{
+    background-image: url(../img/work-16_comp.png);
+}
+.work-17{
+    background-image: url(../img/work-17_comp.png);
+}
+.work-18{
+    background-image: url(../img/work-18_comp.png);
+}
+.work-19{
+    background-image: url(../img/work-19_comp.png);
+}
+.work-20{
+    background-image: url(../img/work-20_comp.png);
+}
+.work-21{
+    background-image: url(../img/work-21_comp.png);
+}
+.work-22{
+    background-image: url(../img/work-22_comp.png);
+}
+.work-23{
+    background-image: url(../img/work-23_comp.png);
+}
+.work-24{
+    background-image: url(../img/work-24_comp.png);
+}
+.work-25{
+    background-image: url(../img/work-25_comp.png);
+}
+.work-26{
+    background-image: url(../img/work-26_comp.png);
+}
+.work-27{
+    background-image: url(../img/work-27_comp.png);
+}
+.work-28{
+    background-image: url(../img/work-28_comp.png);
+}
+.work-29{
+    background-image: url(../img/work-29_comp.png);
+}
+.work-30{
+    background-image: url(../img/work-30_comp.png);
+}
+.work-31{
+    background-image: url(../img/work-31_comp.png);
+}
+.main__video{
+    width: 80%;
+    height: fit-content;
+    margin-bottom: 100px;
+}
+.main__video__options{
+    width: 750px;
+    height: 415px;
+}
+@media screen and (max-width: 1566px){
+    .main__showcase{
+        height: 5920px;
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 1044px){
+    .main__showcase{
+        height: 11470px;
+        margin-bottom: 50px;
+    }
+    .main__caption{
+        font-size: 42px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .main__caption{
+        font-size: 32px;
+    }
+    .main__showcase__picture{
+        width: 280px;
+        height: 250px;
+        margin: 15px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .main__showcase{
+        width: 100%;
+        height: 8680px;
+        margin-bottom: 50px;
+    }
+    .main__video__options{
+        width: 90%;
+        height: 70vh;
+    }
+    .main__video{
+        margin-bottom: 50px;
+    }
+}
